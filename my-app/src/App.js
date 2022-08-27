@@ -10,42 +10,51 @@ function App() {
     <img src="img/passport.jpeg" style={{ width: "100%" }} />
     <a href="#" className="w3-bar-item w3-button w3-padding-large w3-black">
       <i className="fa fa-home w3-xxlarge" />
-      <p>HOME</p>
+      <p>Home</p>
     </a>
+    
     <a
-      href="#about"
+      href="#publications"
       className="w3-bar-item w3-button w3-padding-large w3-hover-black"
     >
-      <i className="fa fa-user w3-xxlarge" />
-      <p>ABOUT</p>
+      <i className="fa fa-book w3-xxlarge" />
+      <p>Publications</p>
     </a>
     <a
-      href="#skills"
+      href="#projects"
       className="w3-bar-item w3-button w3-padding-large w3-hover-black"
     >
-      <i className="fa fa-eye w3-xxlarge" />
-      <p>SKILLS</p>
+      <i className="fa fa-file-code-o w3-xxlarge" />
+      <p>Projects</p>
+    </a>
+    <a
+      href="#involvements"
+      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
+    >
+      <i className="fa fa-users w3-xxlarge" />
+      <p>Involvements</p>
+    </a>
+    <a
+      href="#news"
+      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
+    >
+      <i className="fa fa-newspaper-o w3-xxlarge" />
+      <p>News</p>
     </a>
     <a
       href="#cv"
       className="w3-bar-item w3-button w3-padding-large w3-hover-black"
     >
       <i className="fa fa-copy w3-xxlarge" />
-      <p>PROJECTS</p>
+      <p>CV</p>
     </a>
-    <a
-      href="#resume"
-      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
-    >
-      <i className="fa fa-address-card w3-xxlarge" />
-      <p>CV &amp; RESUME</p>
-    </a>
+    
     <a
       href="#contact"
       className="w3-bar-item w3-button w3-padding-large w3-hover-black"
     >
       <i className="fa fa-envelope w3-xxlarge" />
-      <p>CONTACT</p>
+      <p>Contact</p>
     </a>
   </nav>
   ​{/* Navbar on small screens (Hidden on medium and large screens) */}
@@ -56,28 +65,50 @@ function App() {
         className="w3-bar-item w3-button"
         style={{ width: "25% !important" }}
       >
-        HOME
+        Home
       </a>
+  
       <a
-        href="#about"
+        href="#publications"
         className="w3-bar-item w3-button"
         style={{ width: "25% !important" }}
       >
-        ABOUT
+        Publications
       </a>
       <a
-        href="#photos"
+        href="#projects"
         className="w3-bar-item w3-button"
         style={{ width: "25% !important" }}
       >
-        PHOTOS
+        Projects
+      </a>
+      <a
+        href="#involvements"
+        className="w3-bar-item w3-button"
+        style={{ width: "25% !important" }}
+      >
+        Involvements
+      </a>
+      <a
+        href="#news"
+        className="w3-bar-item w3-button"
+        style={{ width: "25% !important" }}
+      >
+        News
+      </a>
+      <a
+        href="#cv"
+        className="w3-bar-item w3-button"
+        style={{ width: "25% !important" }}
+      >
+        CV
       </a>
       <a
         href="#contact"
         className="w3-bar-item w3-button"
         style={{ width: "25% !important" }}
       >
-        CONTACT
+        Contact
       </a>
     </div>
   </div>
@@ -129,9 +160,31 @@ function App() {
         Technology and Engineering(ELITE) a non profit organization which aims
         at exposing Senior High Schools students to electronics and programming.
       </p>
-      <h3 className="w3-padding-16 w3-text-light-grey" id="skills">
-        My Skills
+      <h3 className="w3-padding-16 w3-text-light-grey" id="publications">
+        Publications
       </h3>
+      <h4>Year</h4>
+      <a href="www.google.com">Publication Title</a><p>Text goes here..</p>
+
+      <h4>Year</h4>
+      <a href="www.google.com">Publication Title</a><p>Text goes here..</p>
+
+      <h4>Year</h4>
+      <a href="www.google.com">Publication Title</a><p>Text goes here..</p>
+      <h3 className="w3-padding-16 w3-text-light-grey" id="projects">
+        Projects
+      </h3>
+     
+      <h3 className="w3-padding-16 w3-text-light-grey" id="involvements">
+        Involvements
+      </h3>
+      <h4><q>Some quoted text goes here..</q></h4>
+      <h3 className="w3-padding-16 w3-text-light-grey" id="news">
+        News
+      </h3>
+      {/* <h3 className="w3-padding-16 w3-text-light-grey" id="skills">
+        My Skills
+      </h3> */}
       <div style={{ flex: 1, flexDirection: "row", float: "left" }}>
         <section className="skills">
           <ul style={{ float: "left" }}>
@@ -307,18 +360,8 @@ function App() {
             <h3 className="w3-padding-16 w3-text-light-grey" id="contact">
               Find me
             </h3>
-            <a
-              href="https://www.facebook.com/christabel.acquaye.98"
-              className="w3-bar-item w3-button w3-padding-large w3-black"
-            >
-              <i className="fa fa-facebook-official w3-xxlarge" />
-            </a>
-            <a
-              href="https://twitter.com/ChristabelAcqu5"
-              className="w3-bar-item w3-button w3-padding-large w3-black"
-            >
-              <i className="fa fa-twitter w3-xxlarge" />
-            </a>
+           
+            
             <a
               href="https://www.linkedin.com/in/christabel-acquaye-15152b117/"
               className="w3-bar-item w3-button w3-padding-large w3-black"
@@ -326,17 +369,12 @@ function App() {
               <i className="fa fa-linkedin w3-xxlarge" />
             </a>
             <a
-              href="mailto:acquayechristabel@gmail.com"
+              href="mailto:cacquaye@umd.edu"
               className="w3-bar-item w3-button w3-padding-large w3-black"
             >
               <i className="fa fa-envelope w3-xxlarge" />
             </a>
-            <a
-              href="tel:+233 54 354 8900"
-              className="w3-bar-item w3-button w3-padding-large w3-black"
-            >
-              <i className="fa fa-phone w3-xxlarge" />
-            </a>
+           
             <a
               href="https://github.com/Christland"
               className="w3-bar-item w3-button w3-padding-large w3-black"
