@@ -10,45 +10,54 @@ function App() {
     <img src="img/passport.jpeg" style={{ width: "100%" }} />
     <a href="#" className="w3-bar-item w3-button w3-padding-large w3-black">
       <i className="fa fa-home w3-xxlarge" />
-      <p>HOME</p>
+      <p>Home</p>
     </a>
+    
     <a
-      href="#about"
+      href="#publications"
       className="w3-bar-item w3-button w3-padding-large w3-hover-black"
     >
-      <i className="fa fa-user w3-xxlarge" />
-      <p>ABOUT</p>
+      <i className="fa fa-book w3-xxlarge" />
+      <p>Publications</p>
     </a>
     <a
-      href="#skills"
+      href="#projects"
       className="w3-bar-item w3-button w3-padding-large w3-hover-black"
     >
-      <i className="fa fa-eye w3-xxlarge" />
-      <p>SKILLS</p>
+      <i className="fa fa-file-code-o w3-xxlarge" />
+      <p>Projects</p>
+    </a>
+    <a
+      href="#involvements"
+      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
+    >
+      <i className="fa fa-users w3-xxlarge" />
+      <p>Involvements</p>
+    </a>
+    <a
+      href="#news"
+      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
+    >
+      <i className="fa fa-newspaper-o w3-xxlarge" />
+      <p>News</p>
     </a>
     <a
       href="#cv"
       className="w3-bar-item w3-button w3-padding-large w3-hover-black"
     >
       <i className="fa fa-copy w3-xxlarge" />
-      <p>PROJECTS</p>
+      <p>CV</p>
     </a>
-    <a
-      href="#resume"
-      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
-    >
-      <i className="fa fa-address-card w3-xxlarge" />
-      <p>CV &amp; RESUME</p>
-    </a>
+    
     <a
       href="#contact"
       className="w3-bar-item w3-button w3-padding-large w3-hover-black"
     >
       <i className="fa fa-envelope w3-xxlarge" />
-      <p>CONTACT</p>
+      <p>Contact</p>
     </a>
   </nav>
-  ​{/* Navbar on small screens (Hidden on medium and large screens) */}
+  {/* Navbar on small screens (Hidden on medium and large screens) */}
   <div className="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
     <div className="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
       <a
@@ -56,32 +65,54 @@ function App() {
         className="w3-bar-item w3-button"
         style={{ width: "25% !important" }}
       >
-        HOME
+        Home
       </a>
+  
       <a
-        href="#about"
+        href="#publications"
         className="w3-bar-item w3-button"
         style={{ width: "25% !important" }}
       >
-        ABOUT
+        Publications
       </a>
       <a
-        href="#photos"
+        href="#projects"
         className="w3-bar-item w3-button"
         style={{ width: "25% !important" }}
       >
-        PHOTOS
+        Projects
+      </a>
+      <a
+        href="#involvements"
+        className="w3-bar-item w3-button"
+        style={{ width: "25% !important" }}
+      >
+        Involvements
+      </a>
+      <a
+        href="#news"
+        className="w3-bar-item w3-button"
+        style={{ width: "25% !important" }}
+      >
+        News
+      </a>
+      <a
+        href="#cv"
+        className="w3-bar-item w3-button"
+        style={{ width: "25% !important" }}
+      >
+        CV
       </a>
       <a
         href="#contact"
         className="w3-bar-item w3-button"
         style={{ width: "25% !important" }}
       >
-        CONTACT
+        Contact
       </a>
     </div>
   </div>
-  ​{/* Page Content */}
+  {/* Page Content */}
   <div className="w3-padding-large" id="main">
     {/* Header/Home */}
     <header className="w3-container w3-padding-32 w3-center w3-black" id="home">
@@ -100,7 +131,7 @@ function App() {
         height={408}
       />
     </header>
-    ​{/* About Section */}
+    {/* About Section */}
     <div
       className="w3-content w3-justify w3-text-grey w3-padding-64"
       id="about"
@@ -129,75 +160,28 @@ function App() {
         Technology and Engineering(ELITE) a non profit organization which aims
         at exposing Senior High Schools students to electronics and programming.
       </p>
-      <h3 className="w3-padding-16 w3-text-light-grey" id="skills">
-        My Skills
+      <h3 className="w3-padding-16 w3-text-light-grey" id="publications">
+        Publications
+      </h3>
+      {/* <div> */}
+      <div style={{ display: "flex", flexWrap: "wrap" ,  justifyContent: "start"}}>
+      <i className="fa fa-calendar"/> 
+      <p> 2022</p>
+       
+    </div>
+      
+      <br></br>
+      <a href="www.google.com">Publication Title</a><p>Text goes here..</p>
+      
+      <h4>Year</h4>
+      <a href="www.google.com">Publication Title</a><p>Text goes here..</p>
+
+      <h4>Year</h4>
+      <a href="www.google.com">Publication Title</a><p>Text goes here..</p>
+      <h3 className="w3-padding-16 w3-text-light-grey" id="projects">
+        Projects
       </h3>
       <div style={{ flex: 1, flexDirection: "row", float: "left" }}>
-        <section className="skills">
-          <ul style={{ float: "left" }}>
-            <li>
-              <img src="img/html.svg" />
-              HTML5
-            </li>
-            <br />
-            <li>
-              <img src="img/css.svg" />
-              CSS3
-            </li>
-            <br />
-            <li>
-              <img src="img/js.svg" />
-              JAVASCRIPT
-            </li>
-          </ul>
-          <ul style={{ float: "left" }}></ul>
-          <ul style={{ float: "left" }}></ul>
-          <ul style={{ float: "left" }}>
-            <li>
-              <img src="img/arduino.png " style={{ width: 60, height: 55 }} />
-              ARDUINO
-            </li>
-            <br />
-            <br />
-            <li>
-              <img
-                src="img/raspberry-pi.svg"
-                style={{ width: 60, height: 55 }}
-              />
-              RASPBERRY PI
-            </li>
-            <br />
-            <br />
-            <li>
-              <img src="img/git.svg" style={{ width: 60, height: 55 }} />
-              GIT
-            </li>
-          </ul>
-          <ul style={{ float: "left" }}></ul>
-          <ul style={{ float: "left" }}></ul>
-          <ul style={{ float: "left" }}>
-            <li>
-              <img src="img/nodejs.svg " style={{ width: 60, height: 55 }} />
-              NODE
-            </li>
-            <br />
-            <br />
-            <li>
-              <img src="img/python.svg" style={{ width: 60, height: 55 }} />
-              PYTHON
-            </li>
-            <br />
-            <br />
-            <li>
-              <img src="img/react.png" style={{ width: 60, height: 55 }} />
-              REACT
-            </li>
-          </ul>
-        </section>
-        <h3 className="w3-padding-16 w3-text-light-grey" id="cv">
-          Projects
-        </h3>
-        <div style={{ flex: 1, flexDirection: "row", float: "left" }}>
           <section className="skills">
             <ul style={{ float: "left" }}>
               <li>
@@ -289,6 +273,212 @@ function App() {
             </ul>
             <a href="https://github.com/Christland/serviceWebsite.git"></a>
           </section>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+      <h3 className="w3-padding-16 w3-text-light-grey" id="involvements">
+        Involvements
+      </h3>
+      <h4><q>Some quoted text goes here..</q></h4>
+      <div>
+        <div 
+        style ={{
+          display: "flex", flexDirection: "row",
+        }}>
+          <div> <img 
+        src="img/passport.jpeg" 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        />
+
+        <h5>Title goes here</h5>
+        <p 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        >Some text describing involvement goes here..</p>
+  
+  </div>
+  <div> <img 
+        src="img/passport.jpeg" 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        />
+
+        <h5>Title goes here</h5>
+        <p 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        >Some text describing involvement goes here..</p>
+  
+  </div>
+  <div> <img 
+        src="img/passport.jpeg" 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        />
+
+        <h5>Title goes here</h5>
+        <p 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        >Some text describing involvement goes here..</p>
+  
+  </div>
+        </div>
+      </div>
+      
+
+      <div>
+        <div 
+        style ={{
+          display: "flex", flexDirection: "row",
+        }}>
+          <div> <img 
+        src="img/passport.jpeg" 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        />
+
+        <h5>Title goes here</h5>
+        <p 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        >Some text describing involvement goes here..</p>
+  
+  </div>
+  <div> <img 
+        src="img/passport.jpeg" 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        />
+
+        <h5>Title goes here</h5>
+        <p 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        >Some text describing involvement goes here..</p>
+  
+  </div>
+  <div> <img 
+        src="img/passport.jpeg" 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        />
+
+        <h5>Title goes here</h5>
+        <p 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        >Some text describing involvement goes here..</p>
+  
+  </div>
+        </div>
+      </div>
+      <div>
+        <div 
+        style ={{
+          display: "flex", flexDirection: "row",
+        }}>
+          <div> <img 
+        src="img/passport.jpeg" 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        />
+
+        <h5>Title goes here</h5>
+        <p 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        >Some text describing involvement goes here..</p>
+  
+  </div>
+  <div> <img 
+        src="img/passport.jpeg" 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        />
+
+        <h5>Title goes here</h5>
+        <p 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        >Some text describing involvement goes here..</p>
+  
+  </div>
+  <div> <img 
+        src="img/passport.jpeg" 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        />
+
+        <h5>Title goes here</h5>
+        <p 
+        style={{ display: "block", width: "50%", height: "auto" }}
+        >Some text describing involvement goes here..</p>
+  
+  </div>
+        </div>
+      </div>
+  
+      <h3 className="w3-padding-16 w3-text-light-grey" id="news">
+        News
+      </h3>
+      {/* <h3 className="w3-padding-16 w3-text-light-grey" id="skills">
+        My Skills
+      </h3> */}
+      <div style={{ flex: 1, flexDirection: "row", float: "left" }}>
+        <section className="skills">
+          <ul style={{ float: "left" }}>
+            <li>
+              {/* <img src="img/html.svg" /> */}
+              HTML5
+            </li>
+            <br />
+            <li>
+              {/* <img src="img/css.svg" /> */}
+              CSS3
+            </li>
+            <br />
+            <li>
+              {/* <img src="img/js.svg" /> */}
+              JAVASCRIPT
+            </li>
+          </ul>
+          <ul style={{ float: "left" }}></ul>
+          <ul style={{ float: "left" }}></ul>
+          <ul style={{ float: "left" }}>
+            <li>
+              {/* <img src="img/arduino.png " style={{ width: 60, height: 55 }} /> */}
+              ARDUINO
+            </li>
+            <br />
+            <br />
+            <li>
+              <img
+                // src="img/raspberry-pi.svg"
+                style={{ width: 60, height: 55 }}
+              />
+              RASPBERRY PI
+            </li>
+            <br />
+            <br />
+            <li>
+              {/* <img src="img/git.svg" style={{ width: 60, height: 55 }} /> */}
+              GIT
+            </li>
+          </ul>
+          <ul style={{ float: "left" }}></ul>
+          <ul style={{ float: "left" }}></ul>
+          <ul style={{ float: "left" }}>
+            <li>
+              <img src="img/nodejs.svg " style={{ width: 60, height: 55 }} />
+              NODE
+            </li>
+            <br />
+            <br />
+            <li>
+              <img src="img/python.svg" style={{ width: 60, height: 55 }} />
+              PYTHON
+            </li>
+            <br />
+            <br />
+            <li>
+              <img src="img/react.png" style={{ width: 60, height: 55 }} />
+              REACT
+            </li>
+          </ul>
+        </section>
+        {/* <h3 className="w3-padding-16 w3-text-light-grey" id="cv">
+          Projects
+        </h3> */}
+        
           <a href="https://github.com/Christland/serviceWebsite.git">
             <h3 className="w3-padding-16 w3-text-light-grey" id="resume">
               CV and Resume Details
@@ -307,18 +497,8 @@ function App() {
             <h3 className="w3-padding-16 w3-text-light-grey" id="contact">
               Find me
             </h3>
-            <a
-              href="https://www.facebook.com/christabel.acquaye.98"
-              className="w3-bar-item w3-button w3-padding-large w3-black"
-            >
-              <i className="fa fa-facebook-official w3-xxlarge" />
-            </a>
-            <a
-              href="https://twitter.com/ChristabelAcqu5"
-              className="w3-bar-item w3-button w3-padding-large w3-black"
-            >
-              <i className="fa fa-twitter w3-xxlarge" />
-            </a>
+           
+            
             <a
               href="https://www.linkedin.com/in/christabel-acquaye-15152b117/"
               className="w3-bar-item w3-button w3-padding-large w3-black"
@@ -326,17 +506,12 @@ function App() {
               <i className="fa fa-linkedin w3-xxlarge" />
             </a>
             <a
-              href="mailto:acquayechristabel@gmail.com"
+              href="mailto:cacquaye@umd.edu"
               className="w3-bar-item w3-button w3-padding-large w3-black"
             >
               <i className="fa fa-envelope w3-xxlarge" />
             </a>
-            <a
-              href="tel:+233 54 354 8900"
-              className="w3-bar-item w3-button w3-padding-large w3-black"
-            >
-              <i className="fa fa-phone w3-xxlarge" />
-            </a>
+           
             <a
               href="https://github.com/Christland"
               className="w3-bar-item w3-button w3-padding-large w3-black"
