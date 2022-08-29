@@ -117,7 +117,7 @@ function App() {
  {/* Header/Home */}
  <header className="w3-container w3-padding-32 w3-center w3-black" id="home">
  <h1 className="w3-jumbo">
- <span className="w3-hide-small">I'm</span> Christabel.
+ <span className="w3-hide-small">Hi</span> :)
  </h1>
  <p>
  I'm Christabel, a first year Computer Science Ph.D stduent at the University of Maryland, College Park, USA. 
@@ -136,7 +136,7 @@ function App() {
  className="w3-content w3-justify w3-text-grey w3-padding-64"
  id="about"
  >
- <h2 className="w3-text-light-grey">Who is Christabel</h2>
+ <h2 className="w3-text-light-grey">About Me</h2>
  <hr style={{ width: 200 }} className="w3-opacity" />
  <p style={{ fontSize: 20 }}>
  
@@ -149,26 +149,26 @@ In addition to my teaching responsibilities throughout my year of service, I con
  <h3 className="w3-padding-16 w3-text-light-grey" id="publications">
  Publications
  </h3>
+ <hr style={{ width: 200 }} className="w3-opacity" />
  {/* <div> */}
  <div style={{ display: "flex", flexWrap: "wrap" , justifyContent: "start"}}>
  <i className="fa fa-calendar"/> 
  <p> 2021</p>
  
  </div>
- 
- <br></br>
+
  <a href="https://www.isteams.net/_files/ugd/185b0a_3489476aa4ba44e884a1e38c83e3795f.pdf">
  The Future is Intelligent: Empowering Future Ready Workforce
 Through Artificial Intelligence (AI) Education
 At The Academic City University College Accra Ghana </a><p>Conference Paper: 28th iSTEAMS Multidisciplinary Research Conference AIUWA The Gambia</p>
  
- 
+<br></br>
  <a href="https://www.isteams.net/_files/ugd/185b0a_0643cb81745649b387fae67543d2bbec.pdf">
  State and Future Prospects of Artificial Intelligence (AI) in Ghana</a><p>Conference Paper: 27th iSTEAMS-ACity-IEEE International Conference </p>
 
  <div style={{ display: "flex", flexWrap: "wrap" , justifyContent: "start"}}>
  <i className="fa fa-calendar"/> 
- <p> 2021</p>
+ <p> 2019</p>
  
  </div>
  
@@ -290,20 +290,22 @@ At The Academic City University College Accra Ghana </a><p>Conference Paper: 28t
  style ={{
  display: "flex", flexDirection: "row",
  }}>
- <div> <img 
- src="my-app/public/img/EliTe_Involvement.JPG" 
- style={{ display: "block", width: "50%", height: "auto" }}
+ <div 
+ style={{ width: "30%", height: "30%" }}
+ > <img 
+ src="img/EliTe_Involvement.png" 
+ style={{ display: "block", width: "30%", height: "60%" }}
  />
 
  <h5><a href="http://www.elite-education.org/"></a>ELiTE</h5>
  <p 
- style={{ display: "block", width: "50%", height: "auto" }}
+ style={{ display: "block", width: "50%", height: "60%" }}
  >Tutor and Mentor</p>
  <i>(2016 - Present)</i>
  
  </div>
  <div> <img 
- src="my-app/public/img/anitab_involvement.jpg" 
+ src="img/anitab_involvement.jpg" 
  style={{ display: "block", width: "50%", height: "auto" }}
  />
 
@@ -314,7 +316,7 @@ At The Academic City University College Accra Ghana </a><p>Conference Paper: 28t
  <i>(2020 – 2022)</i>
  </div>
  <div> <img 
- src="my-app/public/img/debian_involvement.png" 
+ src="img/debian_involvement.png" 
  style={{ display: "block", width: "50%", height: "auto" }}
  />
 
@@ -334,7 +336,7 @@ At The Academic City University College Accra Ghana </a><p>Conference Paper: 28t
  display: "flex", flexDirection: "row",
  }}>
  <div> <img 
- src="my-app/public/img/aces_involvement.jpeg" 
+ src="img/aces_involvement.jpeg" 
  style={{ display: "block", width: "50%", height: "auto" }}
  />
 
@@ -345,7 +347,7 @@ At The Academic City University College Accra Ghana </a><p>Conference Paper: 28t
  <i>(2017- 2020)</i>
  </div>
  <div> <img 
- src="my-app/public/img/rosa_invovlements.jpeg" 
+ src="img/rosa_invovlements.jpeg" 
  style={{ display: "block", width: "50%", height: "auto" }}
  />
 
@@ -356,7 +358,7 @@ At The Academic City University College Accra Ghana </a><p>Conference Paper: 28t
  <i>(2018 - 2020)</i>
  </div>
  <div> <img 
- src="my-app/public/img/predix_involvements.png" 
+ src="img/predix_involvements.png" 
  style={{ display: "block", width: "50%", height: "auto" }}
  />
 
