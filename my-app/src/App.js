@@ -2,400 +2,513 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="w3-black main-content">
-  {/* Icon Bar (Sidebar - hidden on small screens) */}
-  <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-    {/* Avatar image in top left corner */}
-    <img src="img/passport.jpeg" style={{ width: "100%" }} />
-    <a href="#" className="w3-bar-item w3-button w3-padding-large w3-black">
-      <i className="fa fa-home w3-xxlarge" />
-      <p>Home</p>
-    </a>
-    
-    <a
-      href="#publications"
-      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
-    >
-      <i className="fa fa-book w3-xxlarge" />
-      <p>Publications</p>
-    </a>
-    <a
-      href="#projects"
-      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
-    >
-      <i className="fa fa-file-code-o w3-xxlarge" />
-      <p>Projects</p>
-    </a>
-    <a
-      href="#involvements"
-      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
-    >
-      <i className="fa fa-users w3-xxlarge" />
-      <p>Involvements</p>
-    </a>
-    <a
-      href="#news"
-      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
-    >
-      <i className="fa fa-newspaper-o w3-xxlarge" />
-      <p>News</p>
-    </a>
-    <a
-      href="#cv"
-      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
-    >
-      <i className="fa fa-copy w3-xxlarge" />
-      <p>CV</p>
-    </a>
-    
-    <a
-      href="#contact"
-      className="w3-bar-item w3-button w3-padding-large w3-hover-black"
-    >
-      <i className="fa fa-envelope w3-xxlarge" />
-      <p>Contact</p>
-    </a>
-  </nav>
-  ​{/* Navbar on small screens (Hidden on medium and large screens) */}
-  <div className="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-    <div className="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-      <a
-        href="#"
-        className="w3-bar-item w3-button"
-        style={{ width: "25% !important" }}
-      >
-        Home
-      </a>
-  
-      <a
-        href="#publications"
-        className="w3-bar-item w3-button"
-        style={{ width: "25% !important" }}
-      >
-        Publications
-      </a>
-      <a
-        href="#projects"
-        className="w3-bar-item w3-button"
-        style={{ width: "25% !important" }}
-      >
-        Projects
-      </a>
-      <a
-        href="#involvements"
-        className="w3-bar-item w3-button"
-        style={{ width: "25% !important" }}
-      >
-        Involvements
-      </a>
-      <a
-        href="#news"
-        className="w3-bar-item w3-button"
-        style={{ width: "25% !important" }}
-      >
-        News
-      </a>
-      <a
-        href="#cv"
-        className="w3-bar-item w3-button"
-        style={{ width: "25% !important" }}
-      >
-        CV
-      </a>
-      <a
-        href="#contact"
-        className="w3-bar-item w3-button"
-        style={{ width: "25% !important" }}
-      >
-        Contact
-      </a>
-    </div>
-  </div>
-  ​{/* Page Content */}
-  <div className="w3-padding-large" id="main">
-    {/* Header/Home */}
-    <header className="w3-container w3-padding-32 w3-center w3-black" id="home">
-      <h1 className="w3-jumbo">
-        <span className="w3-hide-small">I'm</span> Christabel.
-      </h1>
-      <p>
-        A self motivated and hardworking Computer Engineer. Passionate about
-        identifying, learning and solving problems.
-      </p>
-      <img
-        src="img/mine.jpg"
-        alt="boy"
-        className="w3-image"
-        width={592}
-        height={408}
-      />
-    </header>
-    ​{/* About Section */}
-    <div
-      className="w3-content w3-justify w3-text-grey w3-padding-64"
-      id="about"
-    >
-      <h2 className="w3-text-light-grey">Who is Christabel</h2>
-      <hr style={{ width: 200 }} className="w3-opacity" />
-      <p style={{ fontSize: 20 }}>
-        <q>
-          Faster running and no turning back for a glittering and a superb
-          performance.
-        </q>
-        Since beginning my journey as a Computer Engineering student nearly four
-        years ago, this quote has been a guide. I'm naturally reserved when I am
-        not in a familiar territory. As a growing Computer Engineering student I
-        have come to study the act of design, as such, as a designer I can say
-        that i value simple content structure, clean design patterns and
-        thoughful interactions. Although I have been endowed with the knowledge
-        about different things, I am always availing myself at the slightest
-        opportunity to study. Aside my interest in software I have also
-        discovered I enjoy dealing with hardare components as such I took
-        classes which has groomed me in the use of Arduino, Code Composer
-        Studio, Energia among others. Currently, I have been actively pursing
-        the study of Artifical Intelligence. Additionally, as my hobbies I enjoy
-        listening to music and watching movies, however I also appreciate doing
-        volunteering works which is why in 2016, I joined Emerging Leaders In
-        Technology and Engineering(ELITE) a non profit organization which aims
-        at exposing Senior High Schools students to electronics and programming.
-      </p>
-      <h3 className="w3-padding-16 w3-text-light-grey" id="publications">
-        Publications
-      </h3>
-      <h4>Year</h4>
-      <a href="www.google.com">Publication Title</a><p>Text goes here..</p>
+ return (
+ <div className="w3-black main-content">
+ {/* Icon Bar (Sidebar - hidden on small screens) */}
+ <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+ {/* Avatar image in top left corner */}
+ <img src="img/passport.jpeg" style={{ width: "100%" }} />
+ <a href="#" className="w3-bar-item w3-button w3-padding-large w3-black">
+ <i className="fa fa-home w3-xxlarge" />
+ <p>Home</p>
+ </a>
+ 
+ <a
+ href="#publications"
+ className="w3-bar-item w3-button w3-padding-large w3-hover-black"
+ >
+ <i className="fa fa-book w3-xxlarge" />
+ <p>Publications</p>
+ </a>
+ <a
+ href="#projects"
+ className="w3-bar-item w3-button w3-padding-large w3-hover-black"
+ >
+ <i className="fa fa-file-code-o w3-xxlarge" />
+ <p>Projects</p>
+ </a>
+ <a
+ href="#involvements"
+ className="w3-bar-item w3-button w3-padding-large w3-hover-black"
+ >
+ <i className="fa fa-users w3-xxlarge" />
+ <p>Involvements</p>
+ </a>
+ <a
+ href="#news"
+ className="w3-bar-item w3-button w3-padding-large w3-hover-black"
+ >
+ <i className="fa fa-newspaper-o w3-xxlarge" />
+ <p>News</p>
+ </a>
+ <a
+ href="#cv"
+ className="w3-bar-item w3-button w3-padding-large w3-hover-black"
+ >
+ <i className="fa fa-copy w3-xxlarge" />
+ <p>CV</p>
+ </a>
+ 
+ <a
+ href="#contact"
+ className="w3-bar-item w3-button w3-padding-large w3-hover-black"
+ >
+ <i className="fa fa-envelope w3-xxlarge" />
+ <p>Contact</p>
+ </a>
+ </nav>
+ {/* Navbar on small screens (Hidden on medium and large screens) */}
+ <div className="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+ <div className="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+ <a
+ href="#"
+ className="w3-bar-item w3-button"
+ style={{ width: "25% !important" }}
+ >
+ Home
+ </a>
+ 
+ <a
+ href="#publications"
+ className="w3-bar-item w3-button"
+ style={{ width: "25% !important" }}
+ >
+ Publications
+ </a>
+ <a
+ href="#projects"
+ className="w3-bar-item w3-button"
+ style={{ width: "25% !important" }}
+ >
+ Projects
+ </a>
+ <a
+ href="#involvements"
+ className="w3-bar-item w3-button"
+ style={{ width: "25% !important" }}
+ >
+ Involvements
+ </a>
+ <a
+ href="#news"
+ className="w3-bar-item w3-button"
+ style={{ width: "25% !important" }}
+ >
+ News
+ </a>
+ <a
+ href="#cv"
+ className="w3-bar-item w3-button"
+ style={{ width: "25% !important" }}
+ >
+ CV
+ </a>
+ <a
+ href="#contact"
+ className="w3-bar-item w3-button"
+ style={{ width: "25% !important" }}
+ >
+ Contact
+ </a>
+ </div>
+ </div>
+ {/* Page Content */}
+ <div className="w3-padding-large" id="main">
+ {/* Header/Home */}
+ <header className="w3-container w3-padding-32 w3-center w3-black" id="home">
+ <h1 className="w3-jumbo">
+ <span className="w3-hide-small">I'm</span> Christabel.
+ </h1>
+ <p>
+ I'm Christabel, a first year Computer Science Ph.D stduent at the University of Maryland, College Park, USA. 
 
-      <h4>Year</h4>
-      <a href="www.google.com">Publication Title</a><p>Text goes here..</p>
+ </p>
+ <img
+ src="img/mine.jpg"
+ alt="boy"
+ className="w3-image"
+ width={592}
+ height={408}
+ />
+ </header>
+ {/* About Section */}
+ <div
+ className="w3-content w3-justify w3-text-grey w3-padding-64"
+ id="about"
+ >
+ <h2 className="w3-text-light-grey">Who is Christabel</h2>
+ <hr style={{ width: 200 }} className="w3-opacity" />
+ <p style={{ fontSize: 20 }}>
+ 
+ My scholarly interests are largely focused on applications of machine learning and natural language processing in computational social science.
+My other interests, however, revolve around leveraging Embedded Systems to create fun projects and curricula for STEM outreach and volunteer activities.
+I earned a BSc in Computer Engineering from Ghana's Kwame Nkrumah University of Science and Technology (KNUST) in 2019, and I completed my National Service there by working as a teaching assistant for a year.
+In addition to my teaching responsibilities throughout my year of service, I continued my research for my senior project, which was later published in the International Journal of Computer Applications. Also, I created the lab curriculum for the Introduction to Engineering course, which covers embedded systems. I also worked on the KNUST Social Science Department's TimeTable Scheduling App, which employs genetic algorithms.
+ I held positions as a research intern at Karaagro AI and as a teaching and research assistant at Academic City University College.
+ </p>
+ <h3 className="w3-padding-16 w3-text-light-grey" id="publications">
+ Publications
+ </h3>
+ {/* <div> */}
+ <div style={{ display: "flex", flexWrap: "wrap" , justifyContent: "start"}}>
+ <i className="fa fa-calendar"/> 
+ <p> 2021</p>
+ 
+ </div>
+ 
+ <br></br>
+ <a href="https://www.isteams.net/_files/ugd/185b0a_3489476aa4ba44e884a1e38c83e3795f.pdf">
+ The Future is Intelligent: Empowering Future Ready Workforce
+Through Artificial Intelligence (AI) Education
+At The Academic City University College Accra Ghana </a><p>Conference Paper: 28th iSTEAMS Multidisciplinary Research Conference AIUWA The Gambia</p>
+ 
+ 
+ <a href="https://www.isteams.net/_files/ugd/185b0a_0643cb81745649b387fae67543d2bbec.pdf">
+ State and Future Prospects of Artificial Intelligence (AI) in Ghana</a><p>Conference Paper: 27th iSTEAMS-ACity-IEEE International Conference </p>
 
-      <h4>Year</h4>
-      <a href="www.google.com">Publication Title</a><p>Text goes here..</p>
-      <h3 className="w3-padding-16 w3-text-light-grey" id="projects">
-        Projects
-      </h3>
-     
-      <h3 className="w3-padding-16 w3-text-light-grey" id="involvements">
-        Involvements
-      </h3>
-      <h4><q>Some quoted text goes here..</q></h4>
-      <h3 className="w3-padding-16 w3-text-light-grey" id="news">
-        News
-      </h3>
-      {/* <h3 className="w3-padding-16 w3-text-light-grey" id="skills">
-        My Skills
-      </h3> */}
-      <div style={{ flex: 1, flexDirection: "row", float: "left" }}>
-        <section className="skills">
-          <ul style={{ float: "left" }}>
-            <li>
-              <img src="img/html.svg" />
-              HTML5
-            </li>
-            <br />
-            <li>
-              <img src="img/css.svg" />
-              CSS3
-            </li>
-            <br />
-            <li>
-              <img src="img/js.svg" />
-              JAVASCRIPT
-            </li>
-          </ul>
-          <ul style={{ float: "left" }}></ul>
-          <ul style={{ float: "left" }}></ul>
-          <ul style={{ float: "left" }}>
-            <li>
-              <img src="img/arduino.png " style={{ width: 60, height: 55 }} />
-              ARDUINO
-            </li>
-            <br />
-            <br />
-            <li>
-              <img
-                src="img/raspberry-pi.svg"
-                style={{ width: 60, height: 55 }}
-              />
-              RASPBERRY PI
-            </li>
-            <br />
-            <br />
-            <li>
-              <img src="img/git.svg" style={{ width: 60, height: 55 }} />
-              GIT
-            </li>
-          </ul>
-          <ul style={{ float: "left" }}></ul>
-          <ul style={{ float: "left" }}></ul>
-          <ul style={{ float: "left" }}>
-            <li>
-              <img src="img/nodejs.svg " style={{ width: 60, height: 55 }} />
-              NODE
-            </li>
-            <br />
-            <br />
-            <li>
-              <img src="img/python.svg" style={{ width: 60, height: 55 }} />
-              PYTHON
-            </li>
-            <br />
-            <br />
-            <li>
-              <img src="img/react.png" style={{ width: 60, height: 55 }} />
-              REACT
-            </li>
-          </ul>
-        </section>
-        <h3 className="w3-padding-16 w3-text-light-grey" id="cv">
-          Projects
-        </h3>
-        <div style={{ flex: 1, flexDirection: "row", float: "left" }}>
-          <section className="skills">
-            <ul style={{ float: "left" }}>
-              <li>
-                <a href="https://gitlab.com/christabelAcquaye/final-year-project.git">
-                  Electronic Toll Collection System
-                </a>
-              </li>
-              <a href="https://gitlab.com/christabelAcquaye/final-year-project.git">
-                <br />
-              </a>
-              <li>
-                <a href="https://gitlab.com/christabelAcquaye/final-year-project.git" />
-                <a href="https://github.com/timdereaper1/AI-project.git">
-                  Automatic Monograph Assessor
-                </a>
-              </li>
-              <a href="https://github.com/timdereaper1/AI-project.git">
-                <br />
-              </a>
-              <li>
-                <a href="https://github.com/timdereaper1/AI-project.git" />
-                <a href="https://gitlab.com/christabelAcquaye/geolocator.git">
-                  Geolocator with Immobilization
-                </a>
-              </li>
-              <a href="https://gitlab.com/christabelAcquaye/geolocator.git"></a>
-            </ul>
-            <a href="https://gitlab.com/christabelAcquaye/geolocator.git">
-              <ul style={{ float: "left" }}></ul>
-              <ul style={{ float: "left" }}></ul>
-            </a>
-            <ul style={{ float: "left" }}>
-              <a href="https://gitlab.com/christabelAcquaye/geolocator.git"></a>
-              <li>
-                <a href="https://gitlab.com/christabelAcquaye/geolocator.git" />
-                <a href="https://gitlab.com/ACESIV/front-end/erranda.git">
-                  Erranda
-                </a>
-              </li>
-              <a href="https://gitlab.com/ACESIV/front-end/erranda.git">
-                <br />
-              </a>
-              <li>
-                <a href="https://gitlab.com/ACESIV/front-end/erranda.git" />
-                <a href="https://gitlab.com/facta01/BookIT.git">BookIT</a>
-              </li>
-              <a href="https://gitlab.com/facta01/BookIT.git">
-                <br />
-              </a>
-              <li>
-                <a href="https://gitlab.com/facta01/BookIT.git" />
-                <a href="https://github.com/Christland/Transcript-Asssor-System.git">
-                  Transcript Asessor
-                </a>
-              </li>
-              <a href="https://github.com/Christland/Transcript-Asssor-System.git"></a>
-            </ul>
-            <a href="https://github.com/Christland/Transcript-Asssor-System.git">
-              <ul style={{ float: "left" }}></ul>
-              <ul style={{ float: "left" }}></ul>
-            </a>
-            <ul style={{ float: "left" }}>
-              <a href="https://github.com/Christland/Transcript-Asssor-System.git"></a>
-              <li>
-                <a href="https://github.com/Christland/Transcript-Asssor-System.git" />
-                <a href="https://gitlab.com/christabelAcquaye/internet-monitoring-system.git">
-                  Internet Monitor
-                </a>
-              </li>
-              <a href="https://gitlab.com/christabelAcquaye/internet-monitoring-system.git">
-                <br />
-              </a>
-              <li>
-                <a href="https://gitlab.com/christabelAcquaye/internet-monitoring-system.git" />
-                <a href="https://github.com/Christland/Smart-Farm-Android.git">
-                  Farm Assisstant
-                </a>
-              </li>
-              <a href="https://github.com/Christland/Smart-Farm-Android.git">
-                <br />
-              </a>
-              <li>
-                <a href="https://github.com/Christland/Smart-Farm-Android.git" />
-                <a href="https://github.com/Christland/serviceWebsite.git">
-                  SSM Tracker
-                </a>
-              </li>
-              <a href="https://github.com/Christland/serviceWebsite.git"></a>
-            </ul>
-            <a href="https://github.com/Christland/serviceWebsite.git"></a>
-          </section>
-          <a href="https://github.com/Christland/serviceWebsite.git">
-            <h3 className="w3-padding-16 w3-text-light-grey" id="resume">
-              CV and Resume Details
-            </h3>
-          </a>
-          <a href="docs/Revamped.pdf" download="docs/MyCV.pdf">
-            Download Christabel's CV here..
-          </a>
-          <br />
-          <br />
-          <br />
-          <a href="docs/MyResume.pdf" download="docs/MyResume.pdf">
-            Download Christabel's Resume here..
-          </a>
-          <div>
-            <h3 className="w3-padding-16 w3-text-light-grey" id="contact">
-              Find me
-            </h3>
-           
-            
-            <a
-              href="https://www.linkedin.com/in/christabel-acquaye-15152b117/"
-              className="w3-bar-item w3-button w3-padding-large w3-black"
-            >
-              <i className="fa fa-linkedin w3-xxlarge" />
-            </a>
-            <a
-              href="mailto:cacquaye@umd.edu"
-              className="w3-bar-item w3-button w3-padding-large w3-black"
-            >
-              <i className="fa fa-envelope w3-xxlarge" />
-            </a>
-           
-            <a
-              href="https://github.com/Christland"
-              className="w3-bar-item w3-button w3-padding-large w3-black"
-            >
-              <i className="fa fa-github w3-xxlarge" />
-            </a>
-            <a
-              href="https://gitlab.com/christabelAcquaye"
-              className="w3-bar-item w3-button w3-padding-large w3-black"
-            >
-              <i className="fa fa-gitlab w3-xxlarge" />
-            </a>
-          </div>
-          Footer
-        </div>
-      </div>
-    </div>
-  </div>
+ <div style={{ display: "flex", flexWrap: "wrap" , justifyContent: "start"}}>
+ <i className="fa fa-calendar"/> 
+ <p> 2021</p>
+ 
+ </div>
+ 
+ <br></br>
+ <a href="https://www.ijcaonline.org/archives/volume176/number27/kommey-2020-ijca-920278.pdf">GhanaToll: Barrier-Free RFID Toll Collection and Management System for Ghana</a><p>Article: International Journal of Computer Applications </p>
+ 
+ 
+ {/* <a href="www.google.com">Publication Title</a><p>Text goes here..</p> */}
+
+ <h3 className="w3-padding-16 w3-text-light-grey" id="projects">
+ Projects
+ </h3>
+ <div style={{ flex: 1, flexDirection: "row", float: "left" }}>
+ <section className="skills">
+ <ul style={{ float: "left" }}>
+ <li>
+ <a href="https://gitlab.com/christabelAcquaye/final-year-project.git">
+ Electronic Toll Collection System
+ </a>
+ </li>
+ <a href="https://gitlab.com/christabelAcquaye/final-year-project.git">
+ <br />
+ </a>
+ <li>
+ <a href="https://gitlab.com/christabelAcquaye/final-year-project.git" />
+ <a href="https://github.com/timdereaper1/AI-project.git">
+ Automatic Monograph Assessor
+ </a>
+ </li>
+ <a href="https://github.com/timdereaper1/AI-project.git">
+ <br />
+ </a>
+ <li>
+ <a href="https://github.com/timdereaper1/AI-project.git" />
+ <a href="https://gitlab.com/christabelAcquaye/geolocator.git">
+ Geolocator with Immobilization
+ </a>
+ </li>
+ <a href="https://gitlab.com/christabelAcquaye/geolocator.git"></a>
+ </ul>
+ <a href="https://gitlab.com/christabelAcquaye/geolocator.git">
+ <ul style={{ float: "left" }}></ul>
+ <ul style={{ float: "left" }}></ul>
+ </a>
+ <ul style={{ float: "left" }}>
+ <a href="https://gitlab.com/christabelAcquaye/geolocator.git"></a>
+ <li>
+ <a href="https://gitlab.com/christabelAcquaye/geolocator.git" />
+ <a href="https://gitlab.com/ACESIV/front-end/erranda.git">
+ Erranda
+ </a>
+ </li>
+ <a href="https://gitlab.com/ACESIV/front-end/erranda.git">
+ <br />
+ </a>
+ <li>
+ <a href="https://gitlab.com/ACESIV/front-end/erranda.git" />
+ <a href="https://gitlab.com/facta01/BookIT.git">BookIT</a>
+ </li>
+ <a href="https://gitlab.com/facta01/BookIT.git">
+ <br />
+ </a>
+ <li>
+ <a href="https://gitlab.com/facta01/BookIT.git" />
+ <a href="https://github.com/Christland/Transcript-Asssor-System.git">
+ Transcript Asessor
+ </a>
+ </li>
+ <a href="https://github.com/Christland/Transcript-Asssor-System.git"></a>
+ </ul>
+ <a href="https://github.com/Christland/Transcript-Asssor-System.git">
+ <ul style={{ float: "left" }}></ul>
+ <ul style={{ float: "left" }}></ul>
+ </a>
+ <ul style={{ float: "left" }}>
+ <a href="https://github.com/Christland/Transcript-Asssor-System.git"></a>
+ <li>
+ <a href="https://github.com/Christland/Transcript-Asssor-System.git" />
+ <a href="https://gitlab.com/christabelAcquaye/internet-monitoring-system.git">
+ Internet Monitor
+ </a>
+ </li>
+ <a href="https://gitlab.com/christabelAcquaye/internet-monitoring-system.git">
+ <br />
+ </a>
+ <li>
+ <a href="https://gitlab.com/christabelAcquaye/internet-monitoring-system.git" />
+ <a href="https://github.com/Christland/Smart-Farm-Android.git">
+ Farm Assisstant
+ </a>
+ </li>
+ <a href="https://github.com/Christland/Smart-Farm-Android.git">
+ <br />
+ </a>
+ <li>
+ <a href="https://github.com/Christland/Smart-Farm-Android.git" />
+ <a href="https://github.com/Christland/serviceWebsite.git">
+ SSM Tracker
+ </a>
+ </li>
+ <a href="https://github.com/Christland/serviceWebsite.git"></a>
+ </ul>
+ <a href="https://github.com/Christland/serviceWebsite.git"></a>
+ </section>
+ <br></br>
+ <br></br>
+ <br></br>
+ <br></br>
+ <br></br>
+ <br></br>
+ <br></br>
+ <h3 className="w3-padding-16 w3-text-light-grey" id="involvements">
+ Involvements
+ </h3>
+ <h4><q>The best way to find yourself is to lose yourself in the service of others.</q></h4>
+ <p>This quote by Mahatma Gandhi, influenced my decision to contribute to these organizations.</p>
+ <div>
+ <div 
+ style ={{
+ display: "flex", flexDirection: "row",
+ }}>
+ <div> <img 
+ src="my-app/public/img/EliTe_Involvement.JPG" 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ />
+
+ <h5><a href="http://www.elite-education.org/"></a>ELiTE</h5>
+ <p 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ >Tutor and Mentor</p>
+ <i>(2016 - Present)</i>
+ 
+ </div>
+ <div> <img 
+ src="my-app/public/img/anitab_involvement.jpg" 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ />
+
+<h5><a href="https://anitab.org/"></a>Anita B. Org</h5>
+<p 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ >Scholarship Application Reviewer</p>
+ <i>(2020 – 2022)</i>
+ </div>
+ <div> <img 
+ src="my-app/public/img/debian_involvement.png" 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ />
+
+<h5><a href="https://www.debian.org/"></a>Debian Video Team</h5>
+<p 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ >Video team volunteer</p>
+ <i>(2019)</i>
+ </div>
+ </div>
+ </div>
+ 
+
+ <div>
+ <div 
+ style ={{
+ display: "flex", flexDirection: "row",
+ }}>
+ <div> <img 
+ src="my-app/public/img/aces_involvement.jpeg" 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ />
+
+<h5><a href="https://www.linkedin.com/company/aces-knust/?originalSubdomain=gh"></a>ACES, KNUST</h5>
+<p 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ >Mentor, General Secretary and Tutor</p>
+ <i>(2017- 2020)</i>
+ </div>
+ <div> <img 
+ src="my-app/public/img/rosa_invovlements.jpeg" 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ />
+
+<h5><a href="https://twitter.com/RosaKnust?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"></a>ROSA, KNUST</h5>
+<p 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ >Academic Mentor and Music Head</p>
+ <i>(2018 - 2020)</i>
+ </div>
+ <div> <img 
+ src="my-app/public/img/predix_involvements.png" 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ />
+
+<h5><a href="https://www.ashesi.org/blog/general-electric-holds-hackathon-launches-digital-academy-at-ashesi/"></a>Predix, General Electric</h5>
+<p 
+ style={{ display: "block", width: "50%", height: "auto" }}
+ >Ambassador, Predix Challenge</p>
+ <i>(2017)</i>
+ </div>
+ </div>
+ </div>
+ 
+ 
+ <h3 className="w3-padding-16 w3-text-light-grey" id="news">
+ News
+ </h3>
+ {/* <h3 className="w3-padding-16 w3-text-light-grey" id="skills">
+ My Skills
+ </h3> */}
+ <div style={{ flex: 1, flexDirection: "row", float: "left" }}>
+ <section className="skills">
+ <ul style={{ float: "left" }}>
+ <li>
+ {/* <img src="img/html.svg" /> */}
+ HTML5
+ </li>
+ <br />
+ <li>
+ {/* <img src="img/css.svg" /> */}
+ CSS3
+ </li>
+ <br />
+ <li>
+ {/* <img src="img/js.svg" /> */}
+ JAVASCRIPT
+ </li>
+ </ul>
+ <ul style={{ float: "left" }}></ul>
+ <ul style={{ float: "left" }}></ul>
+ <ul style={{ float: "left" }}>
+ <li>
+ {/* <img src="img/arduino.png " style={{ width: 60, height: 55 }} /> */}
+ ARDUINO
+ </li>
+ <br />
+ <br />
+ <li>
+ <img
+ // src="img/raspberry-pi.svg"
+ style={{ width: 60, height: 55 }}
+ />
+ RASPBERRY PI
+ </li>
+ <br />
+ <br />
+ <li>
+ {/* <img src="img/git.svg" style={{ width: 60, height: 55 }} /> */}
+ GIT
+ </li>
+ </ul>
+ <ul style={{ float: "left" }}></ul>
+ <ul style={{ float: "left" }}></ul>
+ <ul style={{ float: "left" }}>
+ <li>
+ <img src="img/nodejs.svg " style={{ width: 60, height: 55 }} />
+ NODE
+ </li>
+ <br />
+ <br />
+ <li>
+ <img src="img/python.svg" style={{ width: 60, height: 55 }} />
+ PYTHON
+ </li>
+ <br />
+ <br />
+ <li>
+ <img src="img/react.png" style={{ width: 60, height: 55 }} />
+ REACT
+ </li>
+ </ul>
+ </section>
+ {/* <h3 className="w3-padding-16 w3-text-light-grey" id="cv">
+ Projects
+ </h3> */}
+ 
+ <a href="https://github.com/Christland/serviceWebsite.git">
+ <h3 className="w3-padding-16 w3-text-light-grey" id="resume">
+ CV and Resume Details
+ </h3>
+ </a>
+ <a href="my-app/public/docs/Christabel_Acquaye_2022_CV.pdf" download="my-app/public/docs/Christabel_Acquaye_2022_CV.pdf">
+ Download Christabel's CV here..
+ </a>
+ <br />
+ <br />
+ <br />
+ <a href="my-app/public/docs/Christabel_Acquaye_2022_Resume.pdf" download="my-app/public/docs/Christabel_Acquaye_2022_Resume.pdf">
+ Download Christabel's Resume here..
+ </a>
+ <div>
+ <h3 className="w3-padding-16 w3-text-light-grey" id="contact">
+ Find me
+ </h3>
+ 
+ 
+ <a
+ href="https://www.linkedin.com/in/christabel-acquaye-15152b117/"
+ className="w3-bar-item w3-button w3-padding-large w3-black"
+ >
+ <i className="fa fa-linkedin w3-xxlarge" />
+ </a>
+ <a
+ href="https://www.researchgate.net/profile/Christabel-Acquaye"
+ className="w3-bar-item w3-button w3-padding-large w3-black"
+ >
+ {/* <i class="fa-brands fa-researchgate"></i> */}
+ <i className="fa-brands fa-researchgate w3-xxlarge" />
+ </a>
+ {/* <a
+ href="https://www.linkedin.com/in/christabel-acquaye-15152b117/"
+ className="w3-bar-item w3-button w3-padding-large w3-black"
+ >
+ <i className="fa fa-linkedin w3-xxlarge" />
+ </a> */}
+ <a
+ href="mailto:cacquaye@umd.edu"
+ className="w3-bar-item w3-button w3-padding-large w3-black"
+ >
+ <i className="fa fa-envelope w3-xxlarge" />
+ </a>
+ 
+ <a
+ href="https://github.com/Christland"
+ className="w3-bar-item w3-button w3-padding-large w3-black"
+ >
+ <i className="fa fa-github w3-xxlarge" />
+ </a>
+ <a
+ href="https://gitlab.com/christabelAcquaye"
+ className="w3-bar-item w3-button w3-padding-large w3-black"
+ >
+ <i className="fa fa-gitlab w3-xxlarge" />
+ </a>
+ </div>
+ Footer
+ </div>
+ </div>
+ </div>
+ </div>
 </div>
 
-  );
+ );
 }
 
 export default App;
