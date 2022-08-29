@@ -369,86 +369,17 @@ At The Academic City University College Accra Ghana </a><p>Conference Paper: 28t
  <i>(2017)</i>
  </div>
  </div>
- </div>
+ {/* </div> */}
  
  
  <h3 className="w3-padding-16 w3-text-light-grey" id="news">
  News
  </h3>
- {/* <h3 className="w3-padding-16 w3-text-light-grey" id="skills">
- My Skills
- </h3> */}
- <div style={{ flex: 1, flexDirection: "row", float: "left" }}>
- <section className="skills">
- <ul style={{ float: "left" }}>
- <li>
- {/* <img src="img/html.svg" /> */}
- HTML5
- </li>
- <br />
- <li>
- {/* <img src="img/css.svg" /> */}
- CSS3
- </li>
- <br />
- <li>
- {/* <img src="img/js.svg" /> */}
- JAVASCRIPT
- </li>
- </ul>
- <ul style={{ float: "left" }}></ul>
- <ul style={{ float: "left" }}></ul>
- <ul style={{ float: "left" }}>
- <li>
- {/* <img src="img/arduino.png " style={{ width: 60, height: 55 }} /> */}
- ARDUINO
- </li>
- <br />
- <br />
- <li>
- <img
- // src="img/raspberry-pi.svg"
- style={{ width: 60, height: 55 }}
- />
- RASPBERRY PI
- </li>
- <br />
- <br />
- <li>
- {/* <img src="img/git.svg" style={{ width: 60, height: 55 }} /> */}
- GIT
- </li>
- </ul>
- <ul style={{ float: "left" }}></ul>
- <ul style={{ float: "left" }}></ul>
- <ul style={{ float: "left" }}>
- <li>
- <img src="img/nodejs.svg " style={{ width: 60, height: 55 }} />
- NODE
- </li>
- <br />
- <br />
- <li>
- <img src="img/python.svg" style={{ width: 60, height: 55 }} />
- PYTHON
- </li>
- <br />
- <br />
- <li>
- <img src="img/react.png" style={{ width: 60, height: 55 }} />
- REACT
- </li>
- </ul>
- </section>
- {/* <h3 className="w3-padding-16 w3-text-light-grey" id="cv">
- Projects
- </h3> */}
  
- <a href="https://github.com/Christland/serviceWebsite.git">
  <h3 className="w3-padding-16 w3-text-light-grey" id="resume">
  CV and Resume Details
  </h3>
- </a>
+ 
  <a href="my-app/public/docs/Christabel_Acquaye_2022_CV.pdf" download="my-app/public/docs/Christabel_Acquaye_2022_CV.pdf">
  Download Christabel's CV here..
  </a>
@@ -503,7 +434,6 @@ At The Academic City University College Accra Ghana </a><p>Conference Paper: 28t
  <i className="fa fa-gitlab w3-xxlarge" />
  </a>
  </div>
- Footer
  </div>
  </div>
  </div>
