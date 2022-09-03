@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.news-title {
+  font-size: 1rem;
+  /* text-decoration: underline; */
+  /* cursor: pointer; */
+}
+
+.news-content {
+  font-weight: 500;
+  font-size: 0.75rem;
+}
