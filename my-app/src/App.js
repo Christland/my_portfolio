@@ -115,6 +115,7 @@ function App() {
                     <h1 className="w3-jumbo">Christabel Acquaye
                         {/* <span className="w3-hide-small"></span>  */}
                     </h1>
+                    <hr></hr>
                     {/* <p className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
                     I am a first year Computer Science Ph.D student at the University
                         of Maryland, College Park, USA. My scholarly interests are largely focused on applications of machine
