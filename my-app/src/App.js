@@ -753,15 +753,15 @@ function App() {
                                     I joined the Department of Computer Science, University of Maryland as a PhD student.  
                                        {/* <a href="google.com"> Read More..</a>  */}
                                     </div>
-<br></br><div className="news-title">[07-07-2022]</div>
+<br></br><div className="news-title">[08-17-2022]</div>
                                     <div className="news-content">
-                                    I mentored third place winners for the AFASS Hackathon  
+                                    Our datasets, the KaraAgroAI Cocoa and Maize Datasets was published on Harvard dataverse.
                                        {/* <a href="google.com"> Read More..</a>  */}
                                     </div>
 <br></br>
                                     <div className="news-title">[06-04-2022]</div>
                                     <div className="news-content">
-                                    I mentored the first place and third place winners for the GFASS Hackathon  
+                                    I mentored first place winners for the GFASS Hackathon and third place winners for the AFASS Hackathon at the Academic City University Collge. 
                                        {/* <a href="google.com"> Read More..</a>  */}
                                     </div>
 <br></br>
